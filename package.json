@@ -1,0 +1,26 @@
+{
+  "name": "@daviddarnes/component-name",
+  "version": "1.0.0",
+  "description": "A web component for…",
+  "main": "component-name.js",
+  "scripts": {
+    "start": "npx http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviddarnes/component-name.git"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/daviddarnes/component-name/issues"
+  },
+  "author": {
+    "name": "David Darnes",
+    "email": "me@daviddarnes.com",
+    "url": "https://darn.es/"
+  },
+  "homepage": "https://github.com/daviddarnes/component-name#readme"
+}
