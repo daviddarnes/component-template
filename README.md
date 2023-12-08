@@ -17,7 +17,7 @@ A Web Component for…
 You have a few options (choose one of these):
 
 1. Install via [npm](https://www.npmjs.com/package/@daviddarnes/component-name): `npm install @daviddarnes/component-name`
-1. [Download the source manually from GitHub](https://github.com/daviddarnes/component-name/tags) into your project.
+1. [Download the source manually from GitHub](https://github.com/daviddarnes/component-name/releases) into your project.
 1. Skip this step and use the script directly via a 3rd party CDN (not recommended for production use)
 
 ### Usage
