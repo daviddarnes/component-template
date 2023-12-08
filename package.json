@@ -1,7 +1,7 @@
 {
   "name": "@daviddarnes/component-name",
   "version": "1.0.0",
-  "description": "A web component for…",
+  "description": "A Web Component for…",
   "main": "component-name.js",
   "scripts": {
     "start": "npx http-server ."
