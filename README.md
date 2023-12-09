@@ -38,3 +38,9 @@ Make sure you include the `<script>` in your project (choose one of these):
 <!-- 3rd party CDN, not recommended for production use -->
 <script type="module" src="https://esm.sh/@daviddarnes/component-name@1.0.0"></script>
 ```
+
+## Credit
+
+With thanks to the following people:
+
+- [Zach Leatherman](https://zachleat.com) for inspiring this [Web Component repo template](https://github.com/daviddarnes/component-template)
