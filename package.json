@@ -12,8 +12,10 @@
   },
   "keywords": [
     "web",
+    "component",
     "components",
-    "web components"
+    "web components",
+    "custom elements"
   ],
   "license": "MIT",
   "publishConfig": {
