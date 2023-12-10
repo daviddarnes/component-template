@@ -6,7 +6,7 @@ A Web Component for…
 
 ## Examples
 
-```
+```html
 <script type="module" src="component-name.js"></script>
 
 <component-name>
