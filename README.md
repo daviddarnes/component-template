@@ -9,8 +9,16 @@ A Web Component for…
 ```
 <script type="module" src="component-name.js"></script>
 
-<component-name></component-name>
+<component-name>
+  <!-- slotted content -->
+</component-name>
 ```
+
+## Features
+
+This Web Component allows you to:
+
+- Check for…
 
 ## Installation
 
