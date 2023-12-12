@@ -2,7 +2,7 @@
 
 A Web Component for…
 
-**[Demo](https://daviddarnes.github.io/component-name/demo.html)** | **[Example resource]([https://darn.es/](https://darn.es/share-button-web-component/))**
+**[Demo](https://daviddarnes.github.io/component-name/demo.html)** | **[Example resource](https://darn.es/share-button-web-component/)**
 
 ## Examples
 
