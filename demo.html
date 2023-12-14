@@ -1,16 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Demo of component-name Web Component" />
-		<title>component-name Web Component Demo</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Demo of component-name Web Component" />
+    <title>component-name Web Component Demo</title>
 
-		<script type="module" src="component-name.js"></script>
-	</head>
-	<body>
-    		<component-name>
-			<!-- slotted content -->
-		</component-name>
-	</body>
+    <script type="module" src="component-name.js"></script>
+  </head>
+  <body>
+    <h2>General usage example</h2>
+    <component-name>
+      <button>Button</button>
+    </component-name>
+    <hr />
+    <h2>Example using a fallback method</h2>
+    <component-name>
+      <button>Button</button>
+      <a href="#">Anchor</a>
+    </component-name>
+    <style>
+      component-name:not(:defined) button,
+      component-name:defined a {
+        display: none;
+      }
+    </style>
+    <hr />
+    <h2>Example using options or additional fallback method</h2>
+    <component-name attribute="value">
+      <button>Button</button>
+    </component-name>
+    <style>
+      component-name[attribute="value"] {
+        outline: 1px solid red;
+      }
+    </style>
+  </body>
 </html>

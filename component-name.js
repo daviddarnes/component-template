@@ -6,7 +6,7 @@ class ComponentName extends HTMLElement {
   }
 
   connectedCallback() {
-
+    // Start here...
   }
 }
 

@@ -6,12 +6,46 @@ A Web Component for…
 
 ## Examples
 
+General usage example:
+
 ```html
 <script type="module" src="component-name.js"></script>
 
 <component-name>
-  <!-- slotted content -->
+  <button>Button</button>
 </component-name>
+```
+
+Example using a fallback method:
+
+```html
+<script type="module" src="component-name.js"></script>
+
+<component-name>
+  <button>Button</button>
+  <a href="#">Anchor</a>
+</component-name>
+<style>
+  component-name:not(:defined) button,
+  component-name:defined a {
+    display: none;
+  }
+</style>
+```
+
+Example using options or additional fallback method:
+
+```html
+<script type="module" src="component-name.js"></script>
+
+<component-name attribute="value">
+  <button>Button</button>
+</component-name>
+<style>
+  component-name[attribute="value"] {
+    outline: 1px solid red;
+  }
+</style>
 ```
 
 ## Features
@@ -39,12 +73,18 @@ Make sure you include the `<script>` in your project (choose one of these):
 
 ```html
 <!-- 3rd party CDN, not recommended for production use -->
-<script type="module" src="https://www.unpkg.com/@daviddarnes/component-name@1.0.0/component-name.js"></script>
+<script
+  type="module"
+  src="https://www.unpkg.com/@daviddarnes/component-name@1.0.0/component-name.js"
+></script>
 ```
 
 ```html
 <!-- 3rd party CDN, not recommended for production use -->
-<script type="module" src="https://esm.sh/@daviddarnes/component-name@1.0.0"></script>
+<script
+  type="module"
+  src="https://esm.sh/@daviddarnes/component-name@1.0.0"
+></script>
 ```
 
 ## Credit
