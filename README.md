@@ -2,7 +2,7 @@
 
 A Web Component for…
 
-**[Demo](https://daviddarnes.github.io/component-name/demo.html)** | **[Further reading](https://darn.es/web-component-github-starter-template/)**
+**[Demo](https://daviddarnes.github.io/component-template/demo.html)** | **[Further reading](https://darn.es/web-component-github-starter-template/)**
 
 ## Examples
 
