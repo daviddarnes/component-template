@@ -4,6 +4,8 @@ A Web Component for…
 
 **[Demo](https://daviddarnes.github.io/component-template/demo.html)** | **[Further reading](https://darn.es/web-component-github-starter-template/)**
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/daviddarnes/component-template)
+
 ## Examples
 
 General usage example:
